@@ -1,0 +1,6 @@
+player,age,team_id,votes_first,points_won,points_max,award_share,g,mp_per_g,pts_per_g,trb_per_g,ast_per_g,stl_per_g,blk_per_g,fg_pct,fg3_pct,ft_pct,ws,ws_per_48
+Bill Russell,30,BOS,53.0,53.0,99,0.535,78,44.4,14.1,24.1,5.3,,,.438,,.573,16.9,.234
+Oscar Robertson,26,CIN,21.0,21.0,99,0.212,75,45.6,30.4,9.0,11.5,,,.480,,.839,17.0,.238
+Jerry West,26,LAL,20.0,20.0,99,0.202,74,41.4,31.0,6.0,4.9,,,.497,,.821,16.7,.261
+Sam Jones,31,BOS,4.0,4.0,99,0.040,80,36.1,25.9,5.1,2.8,,,.452,,.820,12.8,.213
+Wilt Chamberlain,28,TOT,1.0,1.0,99,0.010,73,45.2,34.7,22.9,3.4,,,.510,,.464,15.1,.219

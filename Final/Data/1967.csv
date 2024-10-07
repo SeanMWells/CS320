@@ -1,0 +1,6 @@
+player,age,team_id,votes_first,points_won,points_max,award_share,g,mp_per_g,pts_per_g,trb_per_g,ast_per_g,stl_per_g,blk_per_g,fg_pct,fg3_pct,ft_pct,ws,ws_per_48
+Wilt Chamberlain,30,PHI,80.0,444.0,540,0.822,81,45.5,24.1,24.2,7.8,,,.683,,.441,21.9,.285
+Nate Thurmond,25,SFW,15.0,170.0,540,0.315,65,42.5,18.7,21.3,2.6,,,.437,,.629,7.2,.125
+Bill Russell,32,BOS,5.0,96.0,540,0.178,81,40.7,13.3,21.0,5.8,,,.454,,.610,12.2,.178
+Oscar Robertson,28,CIN,3.0,93.0,540,0.172,79,43.9,30.5,6.2,10.7,,,.493,,.873,17.4,.241
+Rick Barry,22,SFW,2.0,52.0,540,0.096,78,40.7,35.6,9.2,3.6,,,.451,,.884,14.4,.218
