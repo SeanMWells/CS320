@@ -1,0 +1,12 @@
+[I 22:25:40.528 NotebookApp] Serving notebooks from local directory: /home/seanwells/cs320/s21/p3
+[I 22:25:40.528 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 22:25:40.528 NotebookApp] http://instance-1:2020/
+[I 22:25:40.528 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 22:26:16.797 NotebookApp] 302 GET / (72.33.2.254) 0.480000ms
+[I 22:26:17.973 NotebookApp] 302 GET /tree? (72.33.2.254) 0.820000ms
+[I 22:26:20.631 NotebookApp] 302 POST /login?next=%2Ftree%3F (72.33.2.254) 106.050000ms
+[I 22:26:32.565 NotebookApp] 302 POST /login?next=%2F (72.33.2.254) 91.970000ms
+[I 22:26:32.610 NotebookApp] 302 GET / (72.33.2.254) 0.500000ms
+[I 22:26:44.998 NotebookApp] Interrupted...
+[I 22:26:44.999 NotebookApp] Shutting down 0 kernels
+[I 22:26:44.999 NotebookApp] Shutting down 0 terminals

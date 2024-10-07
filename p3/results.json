@@ -1,0 +1,10 @@
+{
+ "score": 100.0,
+ "dfs_pass_file_test": 1.0,
+ "bfs_pass_file_test": 1.0,
+ "FileScraper_go": 1.0,
+ "WebScraper_go": 1.0,
+ "dfs_pass_test": 1.0,
+ "bfs_pass_test": 1.0,
+ "protected_df_test": 1.0
+}

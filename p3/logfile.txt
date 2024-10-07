@@ -1,0 +1,226 @@
+ * Serving Flask app "application" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "application.py", line 136, in <module>
+    application.run("0.0.0.0", port)
+  File "/home/seanwells/.local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/seanwells/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/home/seanwells/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 1005, in inner
+    fd=fd,
+  File "/home/seanwells/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 848, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/home/seanwells/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "application" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [09/Mar/2021 22:44:11] "[37mGET /Node_1.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:11] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:11] "[37mGET /Node_4.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:11] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:11] "[37mGET /Node_1.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:11] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:11] "[37mGET /Node_2.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:11] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:11] "[37mGET /Node_3.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:11] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:11] "[37mGET /Node_6.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:11] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /Node_5.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /Node_4.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /Node_7.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /Node_1.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /Node_2.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /Node_4.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /Node_3.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:12] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:13] "[37mGET /Node_5.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:13] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:13] "[37mGET /Node_6.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:13] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:13] "[37mGET /Node_7.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Mar/2021 22:44:13] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+ * Serving Flask app "application" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "application.py", line 136, in <module>
+    application.run("0.0.0.0", port)
+  File "/home/seanwells/.local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/seanwells/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/home/seanwells/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 1005, in inner
+    fd=fd,
+  File "/home/seanwells/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 848, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/home/seanwells/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "application.py", line 4, in <module>
+    from flask import Flask, request, jsonify
+  File "/home/seanwells/.local/lib/python3.6/site-packages/flask/__init__.py", line 16, in <module>
+    from werkzeug.exceptions import abort
+  File "/home/seanwells/.local/lib/python3.6/site-packages/werkzeug/__init__.py", line 15, in <module>
+    from .serving import run_simple
+  File "/home/seanwells/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 58, in <module>
+    from http.server import BaseHTTPRequestHandler
+  File "/usr/lib/python3.6/http/server.py", line 92, in <module>
+    import http.client
+  File "/usr/lib/python3.6/http/client.py", line 72, in <module>
+    import email.message
+  File "/usr/lib/python3.6/email/message.py", line 105, in <module>
+    class Message:
+  File "/usr/lib/python3.6/email/message.py", line 942, in Message
+    from email.iterators import walk
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 833, in get_data
+KeyboardInterrupt
+ * Serving Flask app "application" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Serving Flask app "application" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Mar/2021 16:54:12] "[37mGET /Node_1.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:12] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:12] "[37mGET /Node_4.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:12] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:12] "[37mGET /Node_1.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:12] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:13] "[37mGET /Node_2.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:13] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:13] "[37mGET /Node_3.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:13] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:13] "[37mGET /Node_6.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:13] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:13] "[37mGET /Node_5.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:13] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:13] "[37mGET /Node_4.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:13] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:13] "[37mGET /Node_7.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:13] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:13] "[37mGET /Node_1.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /Node_2.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /Node_4.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /Node_3.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /Node_5.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /Node_6.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /Node_7.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:14] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:15] "[37mPOST /password HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:15] "[37mGET /expandingTable.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:15] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:15] "[37mGET /locations_bfs?num=2 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:15] "[37mGET /locations_bfs?num=4 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:15] "[37mGET /locations_bfs?num=6 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:16] "[37mGET /locations_bfs?num=8 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:16] "[37mGET /locations_bfs?num=10 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:16] "[37mGET /locations_bfs?num=12 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:16] "[37mGET /locations_bfs?num=14 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:16] "[37mGET /locations_bfs?num=16 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:16] "[37mGET /locations_bfs?num=18 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:16] "[37mGET /locations_bfs?num=20 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:54:16] "[37mGET /locations_bfs?num=22 HTTP/1.1[0m" 200 -
+ * Serving Flask app "application" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Mar/2021 16:57:46] "[37mGET /Node_1.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:46] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:46] "[37mGET /Node_4.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:46] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:46] "[37mGET /Node_1.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:47] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:47] "[37mGET /Node_2.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:47] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:47] "[37mGET /Node_3.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:47] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:47] "[37mGET /Node_6.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:47] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:47] "[37mGET /Node_5.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:47] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:47] "[37mGET /Node_4.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:47] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:47] "[37mGET /Node_7.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:47] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:48] "[37mGET /Node_1.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:48] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:48] "[37mGET /Node_2.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:48] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:48] "[37mGET /Node_4.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:48] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:48] "[37mGET /Node_3.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:48] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:48] "[37mGET /Node_5.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:48] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:48] "[37mGET /Node_6.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:48] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:49] "[37mGET /Node_7.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:49] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:49] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:49] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:49] "[37mPOST /password HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:49] "[37mGET /expandingTable.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:49] "[37mGET /styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:49] "[37mGET /locations_bfs?num=2 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:49] "[37mGET /locations_bfs?num=4 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:50] "[37mGET /locations_bfs?num=6 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:50] "[37mGET /locations_bfs?num=8 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:50] "[37mGET /locations_bfs?num=10 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:50] "[37mGET /locations_bfs?num=12 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:50] "[37mGET /locations_bfs?num=14 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:50] "[37mGET /locations_bfs?num=16 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:50] "[37mGET /locations_bfs?num=18 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:50] "[37mGET /locations_bfs?num=20 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [10/Mar/2021 16:57:51] "[37mGET /locations_bfs?num=22 HTTP/1.1[0m" 200 -

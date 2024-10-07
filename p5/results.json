@@ -1,0 +1,36 @@
+{
+  "score": 90.0,
+  "tests": [
+    {
+      "test": "ip_check",
+      "points": 25,
+      "possible": 25
+    },
+    {
+      "test": "sample",
+      "points": 15,
+      "possible": 25,
+      "log": [
+        "========================================",
+        "TEST sample (25 points possible)",
+        "RUN: python3 main.py sample large.zip small_samp.zip 1000",
+        "(-10) sample command can be optimized further. (<= 20secs), elapsed time: 74.69312",
+        "Make sure you have an O(M+N) implementation",
+        ""
+      ]
+    },
+    {
+      "test": "world",
+      "points": 25,
+      "possible": 25
+    },
+    {
+      "test": "phone",
+      "points": 25.0,
+      "possible": 25
+    }
+  ],
+  "lint": [],
+  "date": "04/05/2021",
+  "latency": 83.45355701446533
+}
